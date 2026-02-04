@@ -49,7 +49,7 @@ src/
  └── index.html
 
 ```
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 Prerequisites:
 
@@ -64,18 +64,18 @@ Run locally:
 
 Open: http://localhost:4200/
 
-## 📦 Build
+# 📦 Build
 
     ng build --configuration production
 
 Build output will be stored in the dist/ folder.
 
-## 🌍 Deployment (GitHub Pages):
+# 🌍 Deployment (GitHub Pages):
 
     ng build --configuration production --base-href /Product-Management-App/
     npx gh-pages -d dist/product-app
 
-##📖 Learning Outcomes:
+# 📖 Learning Outcomes:
 - Angular component architecture
 - Routing and services
 - State management basics

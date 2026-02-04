@@ -82,7 +82,7 @@ Build output will be stored in the dist/ folder.
 - Production builds
 - GitHub Pages deployment
 
-👤 Author:
+# 👤 Author:
 Sravanti Rajesh
 GitHub: https://github.com/Sravantirajesh
 

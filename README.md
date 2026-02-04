@@ -48,7 +48,7 @@ src/
  ├── assets/
  └── index.html
 
-
+---text
 ## 🚀 Getting Started
 
 Prerequisites:
@@ -87,3 +87,5 @@ Sravanti Rajesh
 GitHub: https://github.com/Sravantirajesh
 
 ⭐ If you like this project, feel free to star the repository!
+
+---text

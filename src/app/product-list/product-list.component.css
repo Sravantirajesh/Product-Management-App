@@ -1,0 +1,50 @@
+/* Page background */
+.container {
+  background: linear-gradient(135deg, #668fb854, #466892);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Header */
+h3 {
+  color: #1a0c55;
+  font-weight: 700;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #657091;
+  box-shadow: 0 0 0 0.15rem rgba(78, 115, 223, 0.25);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #4e73df, #36b9cc);
+  border: none;
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #11895d, #17a673);
+  border: none;
+}
+
+/* AG Grid tweaks */
+.ag-theme-alpine {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ag-theme-alpine .ag-header {
+  background-color: #4e73df;
+  color: white;
+  font-weight: 600;
+}
+
+.ag-theme-alpine .ag-row:hover {
+  background-color: #46598a !important;
+}

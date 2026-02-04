@@ -1,0 +1,84 @@
+/* Page background */
+.container {
+  background: linear-gradient(135deg, #668fb854, #466892);
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* Card header */
+.card-header {
+  background: linear-gradient(135deg, #4e73df, #1cc88a) !important;
+  border-bottom: none;
+  padding: 16px 20px;
+}
+
+/* Header text */
+.card-header h4 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Card body spacing */
+.card-body {
+  padding: 24px;
+}
+
+/* Labels */
+label.fw-bold {
+  color: #495057;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+/* Read-only text */
+.form-control-plaintext {
+  background-color: #f8f9fc;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  color: #212529;
+}
+
+/* Quantity input */
+input.form-control {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  padding: 10px 14px;
+  transition: all 0.3s ease;
+}
+
+input.form-control:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+/* Update button */
+.btn-success {
+  background: linear-gradient(135deg, #1cc88a, #36b9cc);
+  border: none;
+  border-radius: 22px;
+  padding: 10px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #17a673, #2c9faf);
+  transform: translateY(-1px);
+}
+
+/* Disabled button */
+.btn-success:disabled {
+  background: #adb5bd;
+  cursor: not-allowed;
+  transform: none;
+}

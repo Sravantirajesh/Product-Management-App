@@ -1,0 +1,58 @@
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+
+      <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+          <h4 class="mb-0">Product Details 🛍 </h4>
+        </div>
+
+        <div class="card-body" *ngIf="product">
+
+          <div class="mb-3">
+            <label class="fw-bold">Name</label>
+            <p class="form-control-plaintext">{{ product.name }}</p>
+          </div>
+
+          <div class="mb-3">
+            <label class="fw-bold">Description</label>
+            <p class="form-control-plaintext">
+              {{ product.description || '—' }}
+            </p>
+          </div>
+
+          <div class="mb-3">
+            <label class="fw-bold">Cost</label>
+            <p class="form-control-plaintext">
+              ₹ {{ product.cost | number:'1.1-1' }}
+            </p>
+          </div>
+
+          <div class="mb-4">
+            <label class="fw-bold">Quantity</label>
+            <input
+              type="number"
+              class="form-control"
+              [(ngModel)]="editableQuantity"
+              (ngModelChange)="onQuantityChange()"
+              min="0"
+            />
+          </div>
+
+          <div class="d-grid">
+            <button
+              class="btn btn-success"
+              (click)="updateQuantity()"
+              [disabled]="!isUpdated"
+            >
+               Update Quantity
+            </button>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
